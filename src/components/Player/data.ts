@@ -1,10 +1,17 @@
+import image1 from '../../assets/cover/image-3-min.jpg';
+import image2 from '../../assets/cover/image-5-min.jpg';
+import image3 from '../../assets/cover/image-4-min.jpg';
+import image4 from '../../assets/cover/image-7-min.jpg';
+import image5 from '../../assets/cover/image-9-min.jpg';
+import image6 from '../../assets/cover/image-6-min.jpg';
+
 const songData = [
   {
     link: 'https://www.youtube.com/watch?v=xwYA1d0E_RM',
     artist: 'Felix Jaehn & Ray Dalton',
     track: 'Call It Love',
     favorited: true,
-    cover: './cover/image-3-min.jpg',
+    cover: image1,
     song: './audio/Felix Jaehn & Ray Dalton_Call It Love.m4a',
   },
   {
@@ -12,7 +19,7 @@ const songData = [
     artist: 'Lil Nas X',
     track: 'STAR WALKIN',
     favorited: false,
-    cover: './cover/image-5-min.jpg',
+    cover: image2,
     song: "./audio/Lil Nas X_STAR WALKIN'.m4a",
   },
   {
@@ -20,7 +27,7 @@ const songData = [
     artist: "Rag'n'Bone Man",
     track: 'Human',
     favorited: false,
-    cover: './cover/image-4-min.jpg',
+    cover: image3,
     song: "./audio/Rag'N'Bone Man_Human.mp3",
   },
   {
@@ -28,7 +35,7 @@ const songData = [
     artist: 'Oliver Tree & Robin Schulz',
     track: 'Miss You',
     favorited: false,
-    cover: './cover/image-7-min.jpg',
+    cover: image4,
     song: './audio/Oliver Tree & Robin Schulz_Miss-You.mp3',
   },
   {
@@ -36,7 +43,7 @@ const songData = [
     artist: 'Imagine Dragons x JID',
     track: 'Enemy',
     favorited: true,
-    cover: './cover/image-9-min.jpg',
+    cover: image5,
     song: './audio/Imagine Dragons JID_Enemy.m4a',
   },
   {
@@ -44,7 +51,7 @@ const songData = [
     artist: 'Linkin Park',
     track: 'Lost',
     favorited: true,
-    cover: './cover/image-6-min.jpg',
+    cover: image6,
     song: './audio/Linkin Park_Lost.m4a',
   },
 ];

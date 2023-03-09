@@ -127,7 +127,7 @@ const Player = () => {
         <div className="player_cover">
           <div
             className={`player_cover__item ${isActive ? 'active' : ''} ${isLeave ? 'leave' : ''}`}
-            style={{ backgroundImage: `url(/${data[audioIndex].cover})` }}
+            style={{ backgroundImage: `url(${data[audioIndex].cover})` }}
           />
         </div>
         <div className="btns">
