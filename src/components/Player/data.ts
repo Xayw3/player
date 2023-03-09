@@ -1,3 +1,4 @@
+import { preloadAudio } from '@remotion/preload';
 import image1 from '../../assets/cover/image-3-min.jpg';
 import image2 from '../../assets/cover/image-5-min.jpg';
 import image3 from '../../assets/cover/image-4-min.jpg';
@@ -10,6 +11,13 @@ import audio3 from "../../assets/audio/Rag'N'Bone Man_Human.mp3";
 import audio4 from '../../assets/audio/Oliver Tree & Robin Schulz_Miss-You.mp3';
 import audio5 from '../../assets/audio/Imagine Dragons JID_Enemy.m4a';
 import audio6 from '../../assets/audio/Linkin Park_Lost.m4a';
+
+preloadAudio(audio1);
+preloadAudio(audio2);
+preloadAudio(audio3);
+preloadAudio(audio4);
+preloadAudio(audio5);
+preloadAudio(audio6);
 
 const songData = [
   {
