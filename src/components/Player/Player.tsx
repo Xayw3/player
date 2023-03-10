@@ -138,7 +138,7 @@ const Player = () => {
           >
             <LikeIcon />
           </button>
-          <a className="btn" href={data[audioIndex].link}><LinkIcon /></a>
+          <a className="btn" target="_blank" href={data[audioIndex].link} rel="noreferrer"><LinkIcon /></a>
           <button className="btn" onClick={handlePrev}><PrevIcon /></button>
           <button className="btn" onClick={handleNext}><NextIcon /></button>
           {
