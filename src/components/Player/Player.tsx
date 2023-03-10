@@ -157,7 +157,7 @@ const Player = () => {
             <p className="audio_name">{data[audioIndex]?.artist}</p>
             <p className="audio_track">{data[audioIndex]?.track}</p>
           </div>
-          <p className="audio_duration">{formatTime(timeRemaining)}</p>
+          <p className="audio_duration">{!timeRemaining ? '00:00' : formatTime(timeRemaining)}</p>
         </div>
         <div className="progress_wrapper">
           <input
